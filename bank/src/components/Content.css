@@ -1,8 +1,58 @@
 .content {
     display: inline-flex;
-    position: fixed;
     flex-direction: column;
     margin-left: 20px;
-    padding: 20px; /* Add a border to the left side */
+    padding: 40px;
     overflow: auto;
+    border-left: 2px solid black;
+}
+.para{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form{
+    padding: 20px;
+    width: 800px;
+    border: 2px solid lightgray;
+}
+.inside{
+    display: flex;
+    justify-content: flex-start;
+    gap:2rem;
+    padding: 5px;
+    margin: 5px;
+}
+.inside > label{
+    width: 270px;
+}
+.inside > input{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: lightgray;
+    width: 300px;
+    border: 1px solid lightgray;
+}
+.con{
+    max-width: 400px;
+    border: 2px solid lightgray;
+    padding: 10px;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: blue;
+    color:  white;
+    height: 40px;
+    width: 60px;
 }

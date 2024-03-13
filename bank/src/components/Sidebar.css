@@ -1,13 +1,10 @@
 .sidebar {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-     /* Adjusted to align items to the start of the sidebar */ /* Added padding for better spacing */
-     /* Adjusted for consistent vertical spacing */
-    width: 250px; /* Set a fixed width for the sidebar */
+    width: 450px;
     padding: 20px;
-    border-right: 2px solid black;
-    height: 500px
+    height: 500px;
 }
 
 .sidebar-items {

@@ -1,19 +1,19 @@
 .centered-nav{
     text-align: center;
-    font-size: larger;
+    font-size: medium;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
     width: 75%;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .icon-group {
     display: flex;
     justify-content: space-between; /* Evenly space the icons */
     gap: 50px; /* Set gap between icons */
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   /* Customize width and height of the icons */
@@ -23,7 +23,7 @@
     margin-right: 10px
   }
   .navbar-brand{
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .container-fluid{
     border-bottom: 2px solid black;
