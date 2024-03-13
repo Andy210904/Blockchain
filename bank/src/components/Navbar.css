@@ -1,0 +1,30 @@
+.centered-nav{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.icon-group {
+    display: flex;
+    justify-content: space-between; /* Evenly space the icons */
+    gap: 50px; /* Set gap between icons */
+    margin-top: 20px;
+  }
+  
+  /* Customize width and height of the icons */
+  .icon-group svg {
+    width: 30px; /* Set width */
+    height: 30px; /* Set height */
+    margin-right: 10px
+  }
+  .navbar-brand{
+    margin-top: 20px;
+  }
+  .container-fluid{
+    border-bottom: 2px solid black;
+  }

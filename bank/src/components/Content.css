@@ -1,0 +1,8 @@
+.content {
+    display: inline-flex;
+    position: fixed;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 20px; /* Add a border to the left side */
+    overflow: auto;
+}

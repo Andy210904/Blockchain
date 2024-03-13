@@ -1,0 +1,21 @@
+.sidebar {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+     /* Adjusted to align items to the start of the sidebar */ /* Added padding for better spacing */
+     /* Adjusted for consistent vertical spacing */
+    width: 250px; /* Set a fixed width for the sidebar */
+    padding: 20px;
+    border-right: 2px solid black;
+    height: 500px
+}
+
+.sidebar-items {
+    /* Add styles as needed for your sidebar items */
+    padding: 10px; /* Added padding for better appearance */
+    cursor: pointer; /* Added cursor pointer to indicate clickable items */
+}
+
+.sidebar-items:hover {
+    background-color: #f0f0f0; /* Added hover effect for better interactivity */
+}
