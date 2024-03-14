@@ -26,5 +26,11 @@
     margin-top: 10px;
   }
   .container-fluid{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightgray;
   }
+  .nav-link.active {
+    border-bottom: 5px solid #3AA078;
+}
+.nopad{
+  padding: 0;
+}

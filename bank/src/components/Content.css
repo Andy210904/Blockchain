@@ -2,17 +2,19 @@
     display: inline-flex;
     flex-direction: column;
     margin-left: 20px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
     overflow: auto;
     border-left: 2px solid black;
 }
 .para{
+    max-width: 800px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .form{
     padding: 20px;
-    width: 800px;
+    width: 700px;
     border: 2px solid lightgray;
 }
 .inside{
@@ -21,6 +23,7 @@
     gap:2rem;
     padding: 5px;
     margin: 5px;
+    font-weight: bold;
 }
 .inside > label{
     width: 270px;
@@ -29,14 +32,15 @@
     padding: 5px;
     padding-left: 20px;
     font-size: 12px;
-    color: lightgray;
+    color: black;
     width: 300px;
     border: 1px solid lightgray;
 }
 .con{
-    max-width: 400px;
+    max-width: 300px;
     border: 2px solid lightgray;
     padding: 10px;
+    font-size: small;
 }
 #checkbox{
     height: 15px;
@@ -55,4 +59,9 @@
     color:  white;
     height: 40px;
     width: 60px;
+}
+.align{
+    display: flex;
+    justify-content: flex-end;
+
 }
